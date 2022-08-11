@@ -1,0 +1,12 @@
+<view>
+    <view class="title">Login</view>
+    <form class="from">
+        <view class="clearfix inp">
+            <input class="fl" bindinput="getUsername" type="text" placeholder-class="placeholder" placeholder="请输入用户名" />
+        </view>
+        <view class="inp">
+            <input type="text" bindinput="getPassword" placeholder-class="placeholder" placeholder="请输入密码" />
+        </view>
+    </form>
+    <button bindtap="login">Login</button>
+</view>

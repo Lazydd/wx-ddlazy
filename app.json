@@ -1,0 +1,16 @@
+{
+    "pages": [
+        "pages/webview/webview",
+        "pages/index/index",
+        "pages/login/login",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#fff",
+        "backgroundTextStyle": "light",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

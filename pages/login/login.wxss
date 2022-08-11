@@ -1,0 +1,56 @@
+/* pages/login/login.wxss */
+.title {
+    font-size: 42rpx;
+    color: #333333;
+    letter-spacing: 0.2rpx;
+    text-align: center;
+    font-weight: bold;
+    margin: 94rpx 0 60rpx;
+  }
+  
+  .inp {
+    width: 686rpx;
+    height: 110rpx;
+    line-height: 110rpx;
+    border-bottom: solid 2rpx #EEEEEE;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .inp input {
+    font-size: 34rpx;
+    color: #333333;
+    letter-spacing: 0.52rpx;
+    height: 110rpx;
+    line-height: 110rpx;
+  }
+  
+  .inp text {
+    font-family: PingFangSC-Regular;
+    font-size: 28rpx;
+    color: #333333;
+    letter-spacing: 0.46rpx;
+  }
+  
+  .go {
+    font-family: PingFangSC-Medium;
+    font-size: 32rpx;
+    color: #6B7B92;
+    margin: 32rpx 32rpx 100rpx 32rpx;
+  }
+  
+  button {
+    background: #006EFF;
+    border-radius: 10rpx;
+    width: 690rpx;
+    height: 94rpx;
+    color: #EEEEEE;
+    font-size: 36rpx;
+    margin-top: 100rpx;
+  }
+  
+  .placeholder {
+    font-family: PingFangSC-Regular;
+    font-size: 34rpx;
+    color: #CCCCCC;
+  }
