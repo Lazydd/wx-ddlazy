@@ -8,5 +8,5 @@
             <input type="text" bindinput="getPassword" placeholder-class="placeholder" placeholder="请输入密码" />
         </view>
     </form>
-    <button bindtap="login">Login</button>
+    <button open-type="share">Login</button>
 </view>

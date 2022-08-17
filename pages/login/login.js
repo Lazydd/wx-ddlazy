@@ -69,8 +69,11 @@ Page({
     /**
      * 用户点击右上角分享
      */
-    onShareAppMessage() {
-
+    onShareAppMessage(data) {
+        return {
+            title: '我的名片',
+            path: 'pages/index/index'
+        }
     },
     getUsername(e) {
         this.setData({
